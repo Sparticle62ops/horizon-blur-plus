@@ -4,7 +4,7 @@ Blur+ (Motschen/Blur v6.3.1) ported to [Horizon](https://github.com/horizon-rust
 
 Upstream: github.com/Motschen/Blur, commit 7f57397, MIT (c) 2017 tterrag. LICENSE carried verbatim.
 
-## Slice 1 (this repo)
+## The port
 
 1:1 logic core, no optimizations or behavior changes:
 
