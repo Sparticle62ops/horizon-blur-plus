@@ -1,7 +1,10 @@
 [package]
-name = "horizon-mod-blur-plus"
+name = "mod-blur_plus"
 version = "1.0.0"
 edition = "2021"
+license = "MIT"
+publish = false
+description = "Blur+, a native mod: blurred screens with a gradient background."
 
-[lib]
-path = "runtime.rs"
+[dependencies]
+horizon-mod-api = { path = ".horizon/sdk/api/crates/horizon-mod-api" }
