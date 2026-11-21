@@ -1,0 +1,21 @@
+id = "blur_plus"
+name = "Blur+"
+version = "1.0.0"
+description = """None"""
+authors = ["Motschen", "sparticle"]
+license = "MIT"
+homepage = "None"
+api = "0.2"
+side = "client"
+capabilities = ["registries"]
+
+[native]
+game = "26.3"
+horizon = "f00125f61f794aaa3d4e950d301f353b35b6ee3d"
+mixins = "e59da9094f0c2fdda6c627fe9eff22dec6a906f0"
+
+[[native.module]]
+id = "runtime"
+file = "crates/horizon-client/src/game.rs"
+name = "blur_plus"
+source = "src/runtime.rs"
